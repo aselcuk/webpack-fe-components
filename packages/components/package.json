@@ -1,0 +1,25 @@
+{
+  "name": "@fec/components",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "aselcuk <34aselcuk@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "@fec/component-button": "^0.0.0",
+    "@fec/component-box": "^0.0.0"
+  },
+  "scripts": {
+    "build": "npm run clean && webpack",
+    "clean": "rimraf ./dist"
+  }
+}
